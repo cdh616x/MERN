@@ -4,8 +4,8 @@ import Post from ".//post/post.js";
 
 
 const Posts = () => {
-  const posts = useSelector((posts) => posts.posts)
-  console.log(posts)
+  const posts = useSelector((state) => state.posts);
+  console.log(posts);
   return (
     <>
      <h1>POSTS</h1>
